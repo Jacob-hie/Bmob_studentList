@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/iv_head"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:text="姓名"
+        android:id="@+id/tv_name"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:text="年龄"
+        android:id="@+id/tv_age"
+        android:layout_marginLeft="50dp"/>
+
+    <ImageView
+        android:layout_marginLeft="50dp"
+        android:padding="5dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/del"
+        android:id="@+id/iv_del"/>
+
+</LinearLayout>
